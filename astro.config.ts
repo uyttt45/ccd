@@ -9,7 +9,7 @@ import webmanifest from "astro-webmanifest";
 import { defineConfig, envField } from "astro/config";
 import { expressiveCodeOptions } from "./src/site.config";
 import { siteConfig } from "./src/site.config";
-import vercel from "@astrojs/vercel";
+import vercel from "@astrojs/vercel/edge";
 
 // Remark plugins
 import remarkDirective from "remark-directive"; // Handle ::: directives as nodes
